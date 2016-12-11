@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="3f809407-ae3f-4681-aa6b-0dd1c98f021b" name="UMLClassDiagram1" linkedPackageId="040ec5ea-e48c-47ab-9d08-7b5eddd67bb4" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="b368992d-f6bb-44f2-8d6b-c41494b129b3">
+      <profileInstance Id="c3a33299-4cbe-4d36-b161-537b01643a01" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9afc7f4b-87bc-4d98-b8e4-977c6d32e847">
+      <profileInstance Id="cdd703d8-b35f-44b6-b608-18577dfcc96e" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d53f4f7c-5cd4-45e3-82f0-fdaeba4eba56" name="Device" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="04e91f9c-cfed-4350-9e91-d3cb2fc3b4e8" />
+        <targetEnds>
+          <association Id="4b07a0d2-6d2e-4858-80ca-67d4cdd6535b" isDerived="false" sourceEndRoleName="Device" targetEndRoleName="Network Connection" isLeaf="false" isAbstract="false">
+            <classMoniker Id="783a8dd0-0aea-497c-91e1-1bd162267c29" LastKnownName="Network Connection" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08c05ab7-d6ab-481d-bef2-d430eafbd52c" name="Device" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="f50f3805-a7d2-4c8d-b973-f46875559a6a" name="Lower" value="0">
+                      <elementDefinition Id="56d2c739-21a1-49d4-8f1f-4bcfd49c6163" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="1943ac86-23d9-4ba5-8dbd-0574a5621eda" name="Upper" value="*">
+                      <elementDefinition Id="b95efb07-c8af-4256-9008-5b96d8fdd4fc" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="cf592c05-a0c7-4678-a303-8b395bf07d34" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="888f9bcb-6665-4f11-8e5c-f2f23371faac" name="Network Connection" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="12f5a621-0483-463c-9595-4762a461e747" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9926f247-2bdb-4bc3-9b4b-4a78dda319a9" />
+          </association>
+          <association Id="0a639be1-7592-4cb2-8de4-f23146adfa7f" isDerived="false" sourceEndRoleName="Device" targetEndRoleName="Place" isLeaf="false" isAbstract="false">
+            <classMoniker Id="0ad96874-9673-4446-9782-325dc56f5999" LastKnownName="Place" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="480aff7d-c494-4bd6-a522-1fe29bc2fe05" name="Device" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="57b7b07b-5a9d-41b0-affd-c905328df90b" name="Lower" value="0">
+                      <elementDefinition Id="72603a1f-d4fe-4a06-b72e-468261607f7b" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="6923ba24-e20d-41c2-b125-dae77a559d86" name="Upper" value="*">
+                      <elementDefinition Id="69b8a99e-cc18-4837-8864-7ad98414476e" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="d6ab236e-cc32-4518-af9d-a1fe2fa72158" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eafbb1cb-8eb7-4139-99d3-85e77e7a7a18" name="Place" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="80002dec-55d8-4391-81ad-ce5c3e459511" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dabe020a-f54a-469d-8955-6dde790eaa9f" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="e116af01-552a-47b2-9cc6-e39e751aa285" name="input device" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a12f385d-0be6-4c17-972b-fd0fd39002fc" />
+          </property>
+          <property Id="87a95b53-7204-4c4b-b3ba-00ed0ae63f41" name="output device" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ffeaca2a-2bc3-402b-91c5-eb6db51c1bd6" />
+          </property>
+          <property Id="0eb86185-9e69-4dd4-8901-857fcda6537a" name="ESD" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7bb59335-e922-499d-a22c-e9de5f394e2e" />
+          </property>
+          <property Id="8ccf7946-e3c3-42f7-b870-86905e4c5412" name="RAM" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f6887816-6c43-42e1-b1d0-a1635d91d6de" />
+          </property>
+          <property Id="6e2670e5-2579-4f16-affe-7386413a3c6b" name="TransApparat" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0e17db3f-b651-41c4-b6de-9fc37f642393" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="aa1839e2-6563-4c03-993c-b687e3220f65" name="Operation1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3addf211-3a81-4bda-a465-688671567f47" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1f724f95-40c6-42ab-b6cc-709bd053b1f3" name="Computer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9937eb0a-2cbc-42dc-a71a-915b35584bee" />
+        <targetEnds>
+          <association Id="055354b3-9a8a-4951-8ac7-4cff9ce6a680" isDerived="false" sourceEndRoleName="Computer" targetEndRoleName="Device" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d53f4f7c-5cd4-45e3-82f0-fdaeba4eba56" LastKnownName="Device" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="61990772-499d-40ea-941a-f79822f9ee63" name="Computer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d81b7394-adac-4288-b8a8-76ffe4fd0826" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="526ae499-95ab-4b17-a1a2-5d22c5bd6fed" name="Device" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7be299b9-5d58-4527-8497-865ab75e866d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8ece78d6-c3ce-4a55-8523-04e276147059" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="555e5cab-29b7-46d4-a864-5d568c11886a" name="CPU" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a4fa97b5-a680-4a7d-95ba-ad2dd963d681" />
+          </property>
+          <property Id="ed902348-e0b3-4378-8bd8-923430e10751" name="GPU" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="edf3cb39-4fa4-40b6-935c-8d219d6e4cbd" />
+          </property>
+          <property Id="57085b85-4504-4cad-ae6c-9988fea6ee73" name="HDD" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="61a17555-78c2-471e-a24c-e18579ce96e6" />
+          </property>
+          <property Id="3627c6a2-e0db-4090-81eb-95d0c37ca863" name="RAM" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4bc3ac13-c5f9-4f28-ac88-130fddcc2882" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b9da2931-7c45-4372-a151-260addf4fa4c" name="Monitor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bdc48904-1356-4c88-9450-b7017c573796" />
+        <targetEnds>
+          <association Id="ae66ec37-0613-4d55-9725-be3084e35a1d" isDerived="false" sourceEndRoleName="Monitor" targetEndRoleName="Device" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d53f4f7c-5cd4-45e3-82f0-fdaeba4eba56" LastKnownName="Device" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4b5442c0-8c54-46d0-88ed-5925d74f4682" name="Monitor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0df984b0-2df6-4483-92a4-7729730aa25b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d5399ae1-3b79-459e-97f0-43d1a3dc9f80" name="Device" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4968cf1e-3f93-439b-b597-9e5963fa2d05" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c84b1a89-7e65-4192-9711-1cdfa43cf1c8" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="0b851f64-ca3b-4606-9f34-babc260b7bbb" name="Model" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b06d5482-33c9-4058-bc5b-d947855d04db" />
+          </property>
+          <property Id="21d01920-0ca7-4770-b019-58d0d75be569" name="Diagonal" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="621047f6-7216-4050-9e87-dc6dd1e6f6a7" />
+          </property>
+          <property Id="0f983b95-49d7-4625-a57f-d0dbcadb7dea" name="CRT" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2391ed75-2489-4284-9182-c8faab0940da" />
+          </property>
+          <property Id="12e98360-0846-4304-aee3-19089969c957" name="LSD" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="41e89808-8d39-4d69-bdf3-34fea6f4dcc9" />
+          </property>
+          <property Id="f8b4913f-97be-42cf-90bb-07327cd6e70f" name="Plasma panel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0abae43f-da1e-4c55-a807-d16b0b720daa" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e48b16f5-bf61-4677-8d72-c0de8891c5ef" name="Laptop" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aa689178-36ad-45c5-bd01-9f74ae4114b9" />
+        <targetEnds>
+          <association Id="8f596c9d-a1fc-43d2-8023-83242b433960" isDerived="false" sourceEndRoleName="Laptop" targetEndRoleName="Device" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d53f4f7c-5cd4-45e3-82f0-fdaeba4eba56" LastKnownName="Device" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a244c759-85db-4309-b31e-3c329be55961" name="Laptop" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9b036e02-576f-476d-a3a0-9b01d0b7dcab" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4ec06a6f-953b-44a9-bbfc-78b735d6c76b" name="Device" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b7e3a38c-f774-4bc8-bab4-15d56871f1f3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="46ab7afd-9e7c-4a06-897d-385038389af7" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="12bf80bc-e560-4c67-9842-f5cae4a37f47" name="Model" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="757c5073-7524-416c-babf-237e4e9c2621" />
+          </property>
+          <property Id="956305bd-e038-4dc6-bdf9-90cf139af202" name="CPU" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0c21806f-f6d4-45a9-83e6-f3a3a1bcbfdd" />
+          </property>
+          <property Id="0f823594-afc2-49ed-b785-d9febab2c4ee" name="HDD" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bc63eb18-3dfd-450a-82c6-ca358d75a38f" />
+          </property>
+          <property Id="42ccabc2-9e12-4442-8405-d1d55f456a6c" name="GPU" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0966698f-46cf-4399-a9d0-0c16ce35cd43" />
+          </property>
+          <property Id="6ec1c8ad-68b1-4531-9e22-74ec69c0982b" name="RAM" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f2070064-7b8e-4500-a529-b88f1c481fe2" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="610112ab-de58-418a-84bf-624e9fa87ead" name="Network Hardware" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0e48b64e-c049-48fb-acf6-c01b3bf231f8" />
+        <targetEnds>
+          <association Id="a16fae2a-aac1-413a-830c-8784bad67054" isDerived="false" sourceEndRoleName="Network Hardware" targetEndRoleName="Computer" isLeaf="false" isAbstract="false">
+            <classMoniker Id="1f724f95-40c6-42ab-b6cc-709bd053b1f3" LastKnownName="Computer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="014fd93a-bed0-4671-897a-27ef0ed150b4" name="Network Hardware" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aeb3c577-ebdb-4bbb-9a99-577f30714013" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f74b22a1-31a3-4664-afa2-23760a3b75e2" name="Computer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="10840c98-6dfb-4567-aa5e-510786e840a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="06561ed4-8206-48d3-803a-a7ed8b9e3c5c" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="f21529b8-c392-4683-ba06-1a00b4e90ac7" name="Modem" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d64999f2-30a9-4eb5-a9d6-ae61dc948f55" />
+          </property>
+          <property Id="005f8bb7-71a1-4686-a695-2ea77545551a" name="Highway" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="37239a47-1445-45c3-8b9a-9c823a6dce91" />
+          </property>
+          <property Id="516aac22-6400-4c4d-9492-b09eff6eb47d" name="AC adapter" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="66537071-47e2-4f21-aa4e-31e7b3f6d4f7" />
+          </property>
+          <property Id="f8f42463-2453-43ed-9d45-ebeba39f9d48" name="Switch" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="64c879b1-34e6-461f-944d-54f7e7a726d7" />
+          </property>
+          <property Id="07162f12-130d-427d-ae5d-fb6f63bc5741" name="Router" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dd1ccc19-c511-479d-92c6-2657adc07f0f" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="783a8dd0-0aea-497c-91e1-1bd162267c29" name="Network Connection" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7467f59e-619d-4369-bd99-1e1d10519591" />
+        <targetEnds>
+          <association Id="8e36a419-dfc6-44b9-aa2c-733b456bba01" isDerived="false" sourceEndRoleName="Network Connection" targetEndRoleName="Placement" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b15b4b51-1f8c-4af3-850a-442c6d36aa76" LastKnownName="Placement" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ecf3601f-5732-48f1-9cd9-e5e5edeee6ba" name="Network Connection" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="38facf95-6b30-4e86-a8b2-15823732718d" name="Lower" value="0">
+                      <elementDefinition Id="e2655769-b123-4990-80d4-8449eb63ecfa" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="75d864eb-2b1a-48c9-bdb1-5d73eb0dfc94" name="Upper" value="*">
+                      <elementDefinition Id="e5f3eb46-0052-4aa3-a6ab-a95f614b9409" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="01371d83-648f-4384-864c-56ef9b923eee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e695d522-7614-48bc-8cd9-414fbdfccef8" name="Placement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f94246c9-4f87-4f32-9fb3-33a61110e0ad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7ae3b524-da66-4b77-ac27-fc0fd4cc480c" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="043123b6-2572-4ecf-af0d-a31dbfc491b5" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4ea01c02-d144-40ae-ad0d-f145038595b4" />
+          </property>
+          <property Id="9cdd9633-40a2-4015-879f-59735da2a388" name="Speed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dce5513c-c028-4776-a86e-74f50dc7e1c3" />
+          </property>
+          <property Id="d50ff87f-f9ca-43ae-81c5-5852ea23b4f7" name="Architecture" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9381a0bf-a1f6-449b-9453-a2ce05822efc" />
+          </property>
+          <property Id="6fefdc7a-790f-4fe5-81a4-d5863300f7aa" name="TransMedium" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1c2e9d1f-faa0-429d-92ac-bc8b71be1e92" />
+          </property>
+          <property Id="3d8c2c69-9e3e-4115-b669-d8bbc5329384" name="NetOS" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9a2afbee-cca2-4953-a3b5-01441d268ef1" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b15b4b51-1f8c-4af3-850a-442c6d36aa76" name="Placement" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8b6f0386-f470-4e44-a767-7deada988280" />
+        <ownedAttributesInternal>
+          <property Id="7d021ba1-7df5-48f3-ac4f-467a46a40b43" name="Address" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="11c92b88-e3fb-4517-a98d-3646fe16dc54" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d3e818e1-731c-4a08-9728-ee31667f998f" name="Room" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6e977d80-542d-4b8a-bd2c-aacc19219907" />
+        <targetEnds>
+          <association Id="8aa35a5d-f7be-42df-9ad7-e5a92a915c8a" isDerived="false" sourceEndRoleName="Room" targetEndRoleName="Building" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ad960e38-8310-4a21-ab5c-deca788e3ccb" LastKnownName="Building" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="df9fad70-f4a9-436f-a43b-2a0eb1c4d5ba" name="Room" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="b755defb-6b65-4af8-a53f-e45692d8269b" name="Lower" value="1">
+                      <elementDefinition Id="cf5d29f4-bfa1-4ac8-8865-52f142367bd9" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="02ec1065-d7fe-4f10-83b1-ae04f3f54cb9" name="Upper" value="*">
+                      <elementDefinition Id="5cc91ee5-5c2d-4062-8bbb-19e004f9d654" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="b4f88ade-6a2d-4d50-b983-8554b3bb6391" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7be4d21b-ade0-41da-bb89-5b1ffb0b1840" name="Building" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d10667fa-fc14-40c0-a4b0-f0b180c8510c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e5ff7002-3201-4695-9d80-a257bb94e19d" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0ad96874-9673-4446-9782-325dc56f5999" name="Place" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="115e5963-96c0-49a0-a66d-9c11aa66059a" />
+        <targetEnds>
+          <association Id="d64451e2-5036-4b74-a8dd-77ee0c5ecca6" isDerived="false" sourceEndRoleName="Place" targetEndRoleName="Room" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d3e818e1-731c-4a08-9728-ee31667f998f" LastKnownName="Room" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5549c627-93c6-4e9e-83e5-4af47caef66b" name="Place" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="62a388bd-3616-479e-ab1b-018169da656e" name="Lower" value="1">
+                      <elementDefinition Id="7c80d7c9-e33b-4702-ab1c-5e726a7a6be0" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="f2ba4f8a-f54d-48f1-b5bf-5b9006c77929" name="Upper" value="*">
+                      <elementDefinition Id="9f0b64e1-9a9f-4a43-8494-49d0b6703da7" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="8b57630f-7870-4a50-a3fc-fe2b72eeb3f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de667da7-7626-4f3c-a3fa-a545441c982a" name="Room" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1503b08c-6538-4b42-a853-a67f678e3de6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7dc30922-70e1-4bc4-8c4b-ab881bfb43b1" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ad960e38-8310-4a21-ab5c-deca788e3ccb" name="Building" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="16525528-3145-4047-b16c-0aa0bdeb584a" />
+        <targetEnds>
+          <association Id="42b618ee-fa5c-4ffe-9251-099eb2bfaac5" isDerived="false" sourceEndRoleName="Building" targetEndRoleName="Placement" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b15b4b51-1f8c-4af3-850a-442c6d36aa76" LastKnownName="Placement" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="78e80433-dc14-4704-a536-91dab306bf86" name="Building" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="19f41153-f196-4a38-9f8e-d49355ca2331" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="51b482d3-7fde-4610-8b32-faaeda0408bd" name="Placement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0724eee9-4a72-4739-9f0e-47f04067e7c8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="476633f5-ad24-4555-b2b9-d6054b463307" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="d891e864-fbac-45c7-94f3-508145672f5a" name="Floor" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ed936b38-dd25-4a40-a7e9-0ed243a88c80" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="040ec5ea-e48c-47ab-9d08-7b5eddd67bb4" name="DataNetModelingProject1">
+    <elementDefinition Id="ee70ef20-ac35-4ed1-8708-65370350a564" />
+  </package>
+</logicalClassDesignerModel>
