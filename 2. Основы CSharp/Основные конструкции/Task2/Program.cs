@@ -23,7 +23,7 @@ namespace Task2
                 {
                     for (int k = 0; j < n; j++)
                     {
-                        arr[i, j, k] = r.Next(-100, 100);
+                        arr[i, j, k] = r.Next(-100, 100);//todo вот здесь можно было всё разом написать, чтобы 4 раза не бегать по массиву (т.е. создать 2 массива, один исходный, второй для нулей)
                     }
                 }
             }
@@ -34,7 +34,7 @@ namespace Task2
                 {
                     for (int k = 0; j < n; j++)
                     {
-                        Console.WriteLine("arr[{0}, {1}, {2}] = {3} \n", i, j, k, arr[i, j, k]);
+                        Console.WriteLine("arr[{0}, {1}, {2}] = {3} \n", i, j, k, arr[i, j, k]);//todo вот это
                     }
                 }
             }
@@ -44,8 +44,8 @@ namespace Task2
                 {
                     for (int k = 0; j < n; j++)
                     {
-                        if (arr[i, j, k] < 0)
-                            arr[i, j, k] = 0;
+                        if (arr[i, j, k] < 0)//todo вот это
+                            arr[i, j, k] = 0;//todo вот это
                     }
                 }
             }
@@ -55,7 +55,7 @@ namespace Task2
                 {
                     for (int k = 0; j < n; j++)
                     {
-                        Console.WriteLine("arr[{0}, {1}, {2}] = {3} \n", i, j, k, arr[i, j, k]);
+                        Console.WriteLine("arr[{0}, {1}, {2}] = {3} \n", i, j, k, arr[i, j, k]);//todo вот это
                     }
                 }
             }
