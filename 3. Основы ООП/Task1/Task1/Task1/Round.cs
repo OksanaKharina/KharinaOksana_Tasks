@@ -8,7 +8,7 @@ namespace Task1
 {
 
     //объявление класса, унаследованный от класса Circle
-    public class Round : Circle
+    public class Round : Circle //todo где задание второго радиуса? у круга есть меньший и больший радиусы. 
     {
         public double ComArea()
         {
