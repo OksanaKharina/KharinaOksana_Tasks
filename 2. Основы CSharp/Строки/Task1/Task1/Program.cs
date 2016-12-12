@@ -8,7 +8,7 @@ namespace Task1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//todo на лекции говорил, что нужно использовать Char.isLetter / .isDigit для определения конца слова. Нужно переделать реализацию.
         {//среднне значение = сумму букв во всех словах поделить на количество слов
             Console.CursorVisible = false;
             Console.Write("Введите строку: ");
