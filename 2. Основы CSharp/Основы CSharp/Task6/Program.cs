@@ -8,7 +8,7 @@ namespace Task6
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//todo в твоем редакторе пользователь может применить только одно форматирование текста, а нужно, чтобы он мог повыделять и снять выделение.
         {
             Console.CursorVisible = false;
             string MyStyle = "None";
