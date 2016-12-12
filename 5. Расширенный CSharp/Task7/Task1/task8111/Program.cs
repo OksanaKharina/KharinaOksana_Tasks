@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace task8111
 {
-    class Program
+    class Program//todo сортирует некорректно  пример: "s sss aaaa asd das asdasd asd gg asd f"
     {
         delegate string DelegateSort(string str);
 
