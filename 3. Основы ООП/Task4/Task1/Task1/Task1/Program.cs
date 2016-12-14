@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-      class Program
+      class Program//todo было же уже это задание в папке task1
     {
         static void Main(string[] args)
         {

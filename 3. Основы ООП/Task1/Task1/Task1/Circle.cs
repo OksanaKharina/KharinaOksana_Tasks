@@ -10,7 +10,7 @@ namespace Task1
     { //Поля класса
         public int x;
         public int y;
-        public int r;
+        public int r;//todo где проверка на отрицательность радиуса?
         //метод
         public double ComLength()
         {

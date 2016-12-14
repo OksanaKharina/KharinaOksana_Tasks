@@ -21,7 +21,7 @@ namespace Task3
             sw.Start();
 
             string st = new string('*', n);
-            Console.WriteLine("скорость работы класса string без цикла= {0}", sw.ElapsedTicks);
+            Console.WriteLine("скорость работы класса string без цикла= {0}", sw.ElapsedTicks);//todo он в кишочках всё равно в цикле пробегается :) 
 
             sw.Restart();
 

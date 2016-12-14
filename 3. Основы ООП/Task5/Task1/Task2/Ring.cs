@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task2
 {
-    public class Ring
+    public class Ring//todo каким образом обеспечиваешь нахождение класса в заведомо корректном состоянии (где хоть одна проверка полей класса на корректные значения)? 
     {
         public int x;
         public int y;
